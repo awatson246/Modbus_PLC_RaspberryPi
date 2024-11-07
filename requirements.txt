@@ -1,0 +1,2 @@
+pyModbusTCP
+pycomm3
