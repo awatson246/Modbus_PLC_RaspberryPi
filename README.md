@@ -4,7 +4,7 @@ A functional pipeline to connect a RaspberryPi to (Rockwell, Connected Component
 ## Setup Instructions
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/YourUsername/Modbus_PLC_RaspberryPi.git
+   git clone https://github.com/awatson246/Modbus_PLC_RaspberryPi.git
    cd Modbus_PLC_RaspberryPi
 2. **Run Setup Scipt**
     ```bash
