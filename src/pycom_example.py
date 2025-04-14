@@ -50,4 +50,4 @@ while True:
 				state = 0
 				while green:
 					taglist = micro870.read('_IO_EM_DI_01')
-					freen = taglist[1]
+					green = taglist[1]
