@@ -2,6 +2,7 @@
 # Outputs connected to addresses 000011, 000012, and 000013
 
 from pyModbusTCP.client import ModbusClient
+from pymodbus.client import ModbusTcpClient
 import time
 
 # Create the Modbus TCP client
