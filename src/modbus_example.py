@@ -1,11 +1,10 @@
 # Inputs connected to addresses 000001 and 000002
 # Outputs connected to addresses 000011, 000012, and 000013
 
-from pyModbusTCP.client import ModbusClient
 from pymodbus.client import ModbusTcpClient
 import time
 
-# Create the Modbus TCP client
+# Create the Modbus TCP client, put your own IP here
 client = ModbusTcpClient('192.169.___.___')
 
 # Connect to the Modbus TCP server
