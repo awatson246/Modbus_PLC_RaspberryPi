@@ -12,7 +12,7 @@ client.connect()
 
 while True: 
 	# Read switches of address, number of bits
-	response = client.read_coils(0,2)
+	response = client.read_coils(address=0,count2)
 	if not response.isError():
 		switch1 = response.bits[0]
 		switch2 = response.bits[1]
